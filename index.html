@@ -6,18 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueris.css">
+
 </head>
 <body>
 <header>
     <img src="img/logoblanco.png" alt="logo" class="logo"/>
     <h1>LM BEBIDAS</h1>
     <nav class="menu">
+        <label for="menu-toggle" class="menu-label">
+            <img src="img/menublanco.png" alt="" class="menu-icon" />
+        </label>
+        <!-- Agregamos el input y lo linkeamos al label -->
+        <input type="checkbox" id="menu-toggle" />
         <ul class="menu-list">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Productos</a></li>
             <li><a href="#">Ubicacion</a></li>
             <li><a href="#">Contactos</a></li>
         </ul>
+
+        <!-- /Agregamos input y label para el carrito/ -->
+        <label for="cart-toggle" class="cart-label">
+        <img src="img/carrito.png"
+        alt="Carrito de compras"
+        class="cart-icon"
+        />
+        </label>
+        <input type="checkbox" id="cart-toggle" />
 
         <img src="img/carrito.png" alt="carrito" class="carrito">
     </nav>
@@ -53,6 +69,74 @@
             ¡Esperamos que nos visite pronto!
         </p>
     </section>
+
+    <section id="cards">
+        <h3>¡Se nuestro cliente!</h3>
+        <p>Y aprovecha nuestros beneficios.</p>
+        <div class="cards-info">
+            <div class="card1">
+                <img src="img/sale.webp" alt="desc">
+                <h4>Descuentos</h4>
+                <p>Tenemos las mejores promociones<br> y descuentos del mercado.</p>
+            </div>
+            <div class="card1">
+                <img src="img/vaso.webp" alt="vaso">
+                <h4>Regalos</h4>
+                <p>Con tu compra mayor a $5.000<br> te llevas de regalo un vaso + hielo.</p>
+            </div>
+            <div class="card1">
+                <img src="img/envio2.jpg" alt="envio">
+                <h4>Envios gratis</h4>
+                <p>Realizamos envios gratuitos<br> dentro de los 15km a la redonda.</p>
+            </div>
+        </div>
+    </section>
+
+<footer>
+    <section id="contactos">
+        <div class="contact">
+        
+            <h3>Contactos</h3>
+        
+            
+            <div class="contact-info">
+                <h5>Cordoba, Argentina</h5>
+                <div class="contact-infoextra">
+                    <div class="icon">
+                        <img src="img/icon-ubi.jpg" alt="ubi">
+                        <p>Guayaquil 1172</p>
+                    </div>
+                    <div class="icon">
+                        <img src="img/icon-email.jpg" alt="email">
+                        <p>lmbebidas@gmail.com</p>
+                    </div>
+                    <div class="icon">
+                        <img src="img/icon-tel.jpg" alt="tel">
+                        <p>3517151436</p>
+                    </div>
+                </div>
+            </div> 
+            
+        
+            <div class="redes">
+                <img src="img/icon-whts.png" alt="w">
+                <img src="img/icon-inst.avif" alt="i">
+            </div>    
+        </div>
+
+        <div class="captura">
+            <img src="img/Captura.PNG" alt="cap">
+        </div>
+    </section>
+
+    <section class="fin">
+        <img src="img/logoblanco.png" alt="lm">
+        <p>LM BEBIDAS</p>
+    </section>
+
+</footer>    
+
+
 
 </main>
 
