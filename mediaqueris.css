@@ -52,7 +52,7 @@
     #menu-toggle:checked + .menu-list {
         display: flex;
     }
-
+}
 
 @media (max-width: 1100px) {
     header {
@@ -267,4 +267,3 @@
     }
     
 }
-    
