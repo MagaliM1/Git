@@ -458,3 +458,96 @@ footer {
     display: flex;
     color: rgb(90, 90, 90);
 }
+
+/* productos */
+
+
+#products {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 100px 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.prod-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+    
+.prod {    
+    border-radius: 0.5rem;
+    padding: 5px 10px;
+    display: flex;
+    background: radial-gradient(circle, rgba(251,233,210,1) 45%, rgba(252,219,179,1) 70%, rgba(251,209,157,1) 90%);
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod img {
+    height: 200px;
+    width: 200px;
+}
+
+.prod-info {
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.prod-info h3 {
+    justify-content: center;
+    align-items: center;
+}
+
+.prod-info button {
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    padding: 3px;
+    background: rgb(173, 173, 173);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.prod-mas button {
+    background: radial-gradient(circle, rgba(251,233,210,1) 45%, rgba(252,219,179,1) 70%, rgba(251,209,157,1) 90%);
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.category {
+    color: rgb(224, 142, 42);
+    font-weight: 550;
+    background-color: rgb(248, 247, 247);
+    border-radius: 0.7rem;
+    padding: 10px 10px;
+}
+
+h3 {
+    display: flex;
+    color: rgb(252, 219, 179);
+    font-size: 40px;
+}
+
+.hidden {
+    display: none;
+}
